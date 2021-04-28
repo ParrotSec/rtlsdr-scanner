@@ -1,0 +1,2 @@
+debian/helper-script/* usr/bin/
+*.desktop usr/share/applications/

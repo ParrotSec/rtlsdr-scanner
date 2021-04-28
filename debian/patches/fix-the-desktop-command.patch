@@ -1,0 +1,16 @@
+Description: Fix the .desktop
+ Add missing main category and update Exec command.
+Author: Sophie Brun <sophie@offensive-security.com>
+Last-Update: 2018-11-08
+---
+This patch header follows DEP-3: http://dep.debian.net/deps/dep3/
+--- a/rtlsdr-scanner.desktop
++++ b/rtlsdr-scanner.desktop
+@@ -2,5 +2,5 @@
+ Type = Application
+ Name = RTLSDR Scanner
+ Comment = A cross platform Python frequency scanning GUI for the OsmoSDR rtl-sdr library
+-Exec = python -m rtlsdr_scanner
+-Categories = HamRadio;
++Exec = rtlsdr-scanner
++Categories =Utility;HamRadio;

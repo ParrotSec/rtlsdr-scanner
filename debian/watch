@@ -1,0 +1,3 @@
+version=3
+opts="filenamemangle=s/.*\/v?(.*)\.tar\.gz/rtlsdr-scanner-$1.tar.gz/" \
+https://github.com/CdeMills/RTLSDR-Scanner/tags .*/v?(.*)\.tar\.gz

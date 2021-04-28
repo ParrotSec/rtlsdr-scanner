@@ -1,0 +1,20 @@
+Source: rtlsdr-scanner
+Section: comm
+Priority: optional
+Maintainer: Kali Developers <devel@kali.org>
+Uploaders: Devon Kearns <dookie@kali.org>
+Build-Depends: debhelper-compat (= 12), dh-python, python3-all, python3-setuptools
+Standards-Version: 4.5.0
+Homepage: https://github.com/CdeMills/RTLSDR-Scanner
+Vcs-Git: https://gitlab.com/kalilinux/packages/rtlsdr-scanner.git
+Vcs-Browser: https://gitlab.com/kalilinux/packages/rtlsdr-scanner
+
+Package: rtlsdr-scanner
+Architecture: all
+Depends: ${misc:Depends}, ${python3:Depends}, python3-rtlsdr, python3-visvis, python3-wxgtk4.0, python3-ipdb
+Description: simple spectrum analyser for scanning with a RTL-SDR compatible USB device
+ A cross platform Python frequency scanning GUI for the OsmoSDR rtl-sdr library.
+ .
+ The scanner attempts to overcome the tuner's frequency response by averaging 
+ scans from both the positive and negative frequency offsets of the baseband 
+ data.
