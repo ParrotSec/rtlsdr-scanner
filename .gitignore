@@ -1,0 +1,12 @@
+bin
+dist
+include
+lib
+lib64
+share
+data
+images
+rtlsdr
+pyvenv.cfg
+pip-selfcheck.json
+__pycache__
